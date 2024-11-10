@@ -1,0 +1,24 @@
+.categories {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+.categories-button {
+
+  padding: 10px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  border: 1px solid black;
+  background-color: #fff;
+  color: #222;
+  transition: all 0.5s ease;
+}
+
+.categories-button:hover,
+.categories-button.active {
+  transform: scale(1.05);
+  border-color: transparent;
+  background-color: #82B5D1;
+  color: #ffffff;
+}

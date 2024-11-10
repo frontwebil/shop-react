@@ -1,0 +1,46 @@
+.order-item {
+  display: flex;
+  align-items: center;
+  /* gap: 25px; */
+  justify-content: space-between;
+}
+
+.order-item-info{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.order-item-deleteItem{
+  width: 25px;
+  cursor: pointer;
+  transition: opacity,transform 0.5s ease;
+}
+
+.order-item-deleteItem:hover{
+  width: 25px;
+  opacity: 0.8;
+  transform: scale(1.2);
+}
+
+
+
+.order-image {
+  width: 70px;
+}
+.order-title {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.order-price {
+  font-size: 16px;
+  font-weight: 500;
+  color: #5fa36a;
+}
+
+.order-column-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
