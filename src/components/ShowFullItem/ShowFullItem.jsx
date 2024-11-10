@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "./ShowFullItem.css";
 import { IoMdClose } from "react-icons/io";
 

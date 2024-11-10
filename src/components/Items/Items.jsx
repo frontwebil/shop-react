@@ -1,5 +1,4 @@
-import React from 'react'
-import Item from '../Item/Item'
+import {Item} from '../Item/Item'
 import "./items.css"
 
 export default function Items(props) {

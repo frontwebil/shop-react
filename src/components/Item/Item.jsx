@@ -1,7 +1,6 @@
-import React from "react";
-import "./item.css"
+import "./Item.css";
 
-export default function Item(props) {
+export function Item(props) {
   return (
     <div className="item">
       <img src={props.item.img} alt="" className="item-image" onClick={()=>props.onShowItem(props.item)}/>
